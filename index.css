@@ -1,0 +1,145 @@
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+  font-size: 15px;
+  box-sizing: border-box;
+}
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--very-dark-blue);
+  width: 100%;
+  overflow: hidden;
+}
+.thanks-page,
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(27, 34, 44);
+  margin: 5rem 30rem;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+/* .container {
+  display: none;
+} */
+.thanks-page {
+  display: none;
+}
+.photo-thanks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0rem;
+}
+.mid-content-thanks {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--orange);
+  background-color: var(--dark-blue);
+  margin: 1rem 7rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  height: 2rem;
+}
+.bottom-letter,
+.bottom-content-thanks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.bottom-letter p {
+  font-size: 1.3rem;
+}
+
+.top-star {
+  background-color: var(--dark-blue);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tittle {
+  color: var(--white);
+  margin-top: 1rem;
+}
+.mid-content {
+  color: var(--light-grey);
+}
+.rating-side {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  margin-bottom: 0;
+}
+.radio-button {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  border-radius: 2rem;
+}
+.submit-button-side,
+.back-main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.back-main-page {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+#submit,
+#again {
+  cursor: pointer;
+  background-color: var(--orange);
+  width: 25em;
+  border-radius: 1.7rem;
+  height: 3.5em;
+  font-weight: bold;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.attribution a {
+  color: var(--orange);
+  margin-left: 0.5rem;
+  text-decoration-color: var(--orange);
+  text-decoration-style: wavy;
+}
+.radio-button:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
+.checked {
+  background-color: var(--orange) !important;
+  color: var(--white) !important;
+}
+.hidden {
+  display: none;
+}
+.visible {
+  display: flex;
+}
